@@ -2,7 +2,7 @@ import test from 'ava'
 
 import transform from './index'
 
-test('capers', (t) => {
+test('every day is the same', (t) => {
   const input = [
     {
       close: {
@@ -96,7 +96,7 @@ test('capers', (t) => {
   t.deepEqual(actual, expected)
 })
 
-test('geyser', (t) => {
+test('missing a few days', (t) => {
   const input = [
     {
       close: {
@@ -152,7 +152,7 @@ test('geyser', (t) => {
   t.deepEqual(actual, expected)
 })
 
-test('interval', (t) => {
+test('one day is different', (t) => {
   const input = [
     {
       close: {
@@ -233,7 +233,7 @@ test('interval', (t) => {
   t.deepEqual(actual, expected)
 })
 
-test('epiphany', (t) => {
+test('multiple different times during the week', (t) => {
   const input = [
     {
       close: {
@@ -329,7 +329,7 @@ test('epiphany', (t) => {
   t.deepEqual(actual, expected)
 })
 
-test('bp', (t) => {
+test('open 24 hours', (t) => {
   const input = [
     {
       open: {
