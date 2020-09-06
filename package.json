@@ -1,7 +1,7 @@
 {
   "name": "google-places-periods-parser",
   "version": "1.2.0",
-  "description": "Convert Google Places Opening Hours Periods into the OpeningHoursSpecification format",
+  "description": "Transform Google Places Opening Hours Periods into the OpeningHoursSpecification format",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "repository": "https://github.com/stayradiated/google-places-periods-parser",
@@ -13,7 +13,6 @@
     "tidy": "pkg-tidy"
   },
   "devDependencies": {
-    "@stayradiated/pkg": "4.4.0",
-    "openinghours.js": "0.1.1"
+    "@stayradiated/pkg": "4.4.0"
   }
 }

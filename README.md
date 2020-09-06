@@ -49,9 +49,11 @@ result === [{
 */
 ```
 
-## Are they open?
+## But are they open?
 
-I recommend you use [`openinghours.js`](https://www.npmjs.com/package/openinghours.js) to find this out.
+This library won't tell if you a store is open. I recommend you use
+[`openinghours.js`](https://www.npmjs.com/package/openinghours.js) to find this
+out.
 
 ```typescript
 import parseGooglePlacesPeriods from 'google-places-periods-parser'
