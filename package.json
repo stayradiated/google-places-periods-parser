@@ -8,11 +8,18 @@
   "author": "George Czabania",
   "license": "MIT",
   "scripts": {
-    "build": "pkg-build --target es5",
+    "build": "pkg-build",
     "test": "pkg-test",
     "tidy": "pkg-tidy"
   },
+  "pkg": {
+    "tsconfig": {
+      "compilerOptions": {
+        "target": "es5"
+      }
+    }
+  },
   "devDependencies": {
-    "@stayradiated/pkg": "4.4.0"
+    "@stayradiated/pkg": "4.6.0"
   }
 }

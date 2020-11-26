@@ -70,14 +70,15 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
-"@stayradiated/pkg@4.4.0":
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/@stayradiated/pkg/-/pkg-4.4.0.tgz#1e1135c397cd0eea5e02eb33a69c497bb5455723"
-  integrity sha512-X0fh+FnbhEDUFPQz0MP5BUIAesxMwBQ1pNwk8KzMZd02i5X/y2lAXL8lVWPd/R0G7jWT5Z3V77gtmN4G4joXgg==
+"@stayradiated/pkg@4.6.0":
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/@stayradiated/pkg/-/pkg-4.6.0.tgz#3c2bf0dc3156c4bb2ff9793d45c634c3df16a8c6"
+  integrity sha512-HGEO4sSTBonzZ9ry4GFzLU2aJkIK/5tg2j0TUn6OXv0KGX7ZY2glDzq0dOT5BD7f1+ec9nZbtm+SXzwLmPZRPw==
   dependencies:
     "@ava/typescript" "1.1.1"
     ava "3.6.0"
     chalk "4.0.0"
+    deep-extend "0.6.0"
     eslint "6.8.0"
     eslint-config-stayradiated "2.1.0"
     file-exists "5.0.1"
@@ -799,7 +800,7 @@ dedent@^0.7.0:
   resolved "https://registry.yarnpkg.com/dedent/-/dedent-0.7.0.tgz#2495ddbaf6eb874abb0e1be9df22d2e5a544326c"
   integrity sha1-JJXduvbrh0q7Dhvp3yLS5aVEMmw=
 
-deep-extend@^0.6.0:
+deep-extend@0.6.0, deep-extend@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.6.0.tgz#c4fa7c95404a17a9c3e8ca7e1537312b736330ac"
   integrity sha512-LOHxIOaPYdHlJRtCQfDIVZtfw/ufM8+rVj649RIHzcm/vGwQRXFt6OPqIFWsm2XEMrNIEtWR64sY1LEKD2vAOA==
@@ -1869,11 +1870,6 @@ lunr@^2.3.8:
   resolved "https://registry.yarnpkg.com/lunr/-/lunr-2.3.9.tgz#18b123142832337dd6e964df1a5a7707b25d35e1"
   integrity sha512-zTU3DaZaF3Rt9rhN3uBMGQD3dD2/vFQqnvZCDv4dl5iOzq2IZQqTxu90r4E5J+nP70J3ilqVCrbho2eWaeW8Ow==
 
-luxon@^1.21.3:
-  version "1.25.0"
-  resolved "https://registry.yarnpkg.com/luxon/-/luxon-1.25.0.tgz#d86219e90bc0102c0eb299d65b2f5e95efe1fe72"
-  integrity sha512-hEgLurSH8kQRjY6i4YLey+mcKVAWXbDNlZRmM6AgWDJ1cY3atl8Ztf5wEY7VBReFbmGnwQPz7KYJblL8B2k0jQ==
-
 make-dir@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/make-dir/-/make-dir-3.1.0.tgz#415e967046b3a7f1d185277d84aa58203726a13f"
@@ -2061,13 +2057,6 @@ opencollective-postinstall@^2.0.2:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/opencollective-postinstall/-/opencollective-postinstall-2.0.3.tgz#7a0fff978f6dbfa4d006238fbac98ed4198c3259"
   integrity sha512-8AV/sCtuzUeTo8gQK5qDZzARrulB3egtLzFgteqB2tcT4Mw7B8Kt7JcDHmltjz6FOAHsvTevk70gZEbhM4ZS9Q==
-
-openinghours.js@0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/openinghours.js/-/openinghours.js-0.1.1.tgz#fb24fb0d6c6452af588108f3325ab1694cbe8b0b"
-  integrity sha512-qDPBMJpY6DkXAmmVybblynonpDpJ8keSOfQ4KKPdBItVRib/Mcz6zF2eEpC7inPb+lQ1Evmndi/JGCrefJ08vg==
-  dependencies:
-    luxon "^1.21.3"
 
 optionator@^0.8.3:
   version "0.8.3"
